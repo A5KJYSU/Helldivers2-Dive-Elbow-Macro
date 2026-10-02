@@ -2,6 +2,8 @@
 
 > **关于仓库名**：`juediqianbing2-feipu-zhouji-hong` 是原名称「**绝地潜兵2飞扑肘击宏**」的拼音转写——GitHub 仓库名只允许 ASCII 字母、数字与 `-` `_` `.`，无法直接使用中文。
 > *Pinyin transliteration of the original Chinese name "绝地潜兵2飞扑肘击宏" (Helldivers 2 Dive-Elbow Macro), since GitHub repository names allow ASCII characters only.*
+>
+> 同理，Release 资源名也不支持中文：exe 原名「肘击飞扑通牒宏.exe」，发布时使用英文译名 **`Helldivers2-Dive-Elbow-Macro.exe`**。
 
 复刻《绝地潜兵2》「肘击飞扑通牒」鼠标宏的极简独立程序（Windows / Python 3.8），只保留该鼠标宏，其余功能全部丢弃。
 
@@ -17,7 +19,7 @@
 
 ## 下载使用
 
-1. 前往 [Releases](../../releases) 下载 `肘击飞扑通牒宏.exe`
+1. 前往 [Releases](../../releases) 下载 `Helldivers2-Dive-Elbow-Macro.exe`（原文件名「肘击飞扑通牒宏.exe」）
 2. 放到任意目录运行（首次运行自动在同目录生成 `config.json`）
 3. 编辑 `config.json` 后**重启程序**生效
 4. 进入游戏（游戏窗口在前台），按住触发键 → 上下拖动调整 → 松开自动发射
