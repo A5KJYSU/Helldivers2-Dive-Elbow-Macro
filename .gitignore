@@ -1,0 +1,12 @@
+# 构建与打包产物
+build/
+dist/
+*.exe
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 运行时自动生成（程序会在 exe 同目录生成 config.json，勿提交）
+config.json
