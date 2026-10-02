@@ -4,6 +4,9 @@ dist/
 *.exe
 *.spec
 
+# 本地打包图标（不提交到仓库）
+ass.ico
+
 # Python
 __pycache__/
 *.py[cod]

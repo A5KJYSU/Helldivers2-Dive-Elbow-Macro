@@ -33,7 +33,6 @@ config.py          # config.json 生成/校验 + 热键名 ↔ 键映射
 macro.py           # 宏序列（逐字复刻）+ 延迟插值
 tests/             # 单元/集成测试（60 用例）+ 低层事件记录器
 requirements.txt   # 依赖（pynput、pywin32）
-ass.ico            # 图标（多尺寸 16–256）
 ```
 
 ## 从源码运行 / 打包
@@ -46,8 +45,10 @@ python -m unittest discover -s tests -v       # 运行测试（60 用例）
 
 # 打包为单文件 exe
 python -m PyInstaller --noconfirm --onefile --console --name 肘击飞扑通牒宏 `
-  --icon ass.ico --collect-submodules pynput `
+  --collect-submodules pynput `
   --hidden-import pynput.keyboard._win32 --hidden-import pynput.mouse._win32 main.py
+
+# 如需自定义 exe 图标，在上面的命令中追加：--icon 你的图标.ico
 ```
 
 ## 说明
